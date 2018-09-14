@@ -4,6 +4,9 @@
 
 # Taken from: https://www.reddit.com/r/raspberry_pi/comments/61ntji/247_youtube_music_live_stream_and_how_you_can/
 
+# Fix permissions, just in case
+sudo chmod -R 750 *.sh ffmpeg/ffmpeg
+
 # Update our package list
 sudo apt-get update
 
